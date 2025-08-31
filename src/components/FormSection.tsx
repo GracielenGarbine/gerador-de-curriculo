@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CVData } from "../hooks/useCVData";
+import type { CVData } from "../hooks/useCVData";
 
 interface FormProps {
   data: CVData;

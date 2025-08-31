@@ -1,5 +1,5 @@
 import React from "react";
-import { CVData } from "../hooks/useCVData";
+import type { CVData } from "../hooks/useCVData";
 
 interface PreviewProps {
   data: CVData;
